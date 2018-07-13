@@ -5,11 +5,11 @@ using System.Collections.Generic;
 public class EnemyManager : MonoBehaviour
 {
 	public static EnemyManager instance = null;
-    public PlayerHealth playerHealth;
-    public GameObject enemy;
+    	public PlayerHealth playerHealth;
+   	public GameObject enemy;
 	private List<GameObject> enemies = new List<GameObject> ();
-    public float spawnTime = 3f;
-    public Transform[] spawnPoints;
+	public float spawnTime = 3f;
+    	public Transform[] spawnPoints;
 	public Transform[] finalSpawnPoints;
 	public int maxEnemies = 10;
 	private bool spawnFinalRoom = false;
@@ -55,9 +55,7 @@ public class EnemyManager : MonoBehaviour
 		foreach(GameObject e in enemies) {
 			Destroy (e);
 		}
-
 		enemies.Clear ();
-
 		spawnFinalRoom = true;
 	}
 }
