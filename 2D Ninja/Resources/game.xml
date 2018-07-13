@@ -1,0 +1,179 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Aditi Jain's Ninja Animation</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+
+<frameMax>300</frameMax>
+<username>aditij</username>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>5000</width>
+  <height>960</height>
+</world>
+
+<back1>
+  <file>images/bg1.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>10</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1280</width>
+  <height>960</height>
+  <transparency>true</transparency>
+</back1>
+
+<back2>
+  <file>images/bg2.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>2</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1280</width>
+  <height>960</height>
+  <transparency>true</transparency>
+</back2>
+
+<back3>
+  <file>images/bg3.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1280</width>
+  <height>960</height>
+  <transparency>true</transparency>
+</back3>  
+    
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+
+<NumberOfSprites>5</NumberOfSprites>
+
+<Ninja>
+  <plist>ninja.plist</plist>
+  <file>images/ninja_fwd.png</file>
+  <startLoc x="120" y="800"/>
+  <frames>8</frames>
+  <frameInterval>10</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>210</width>
+  <height>147</height>
+  <speedX>-400</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>15</size>
+    <distance>200</distance>
+  </chunk>
+</Ninja>  
+  
+<NinjaBwd>
+  <file>images/ninja_bwd.png</file>
+  <startLoc x="120" y="800"/>
+  <frames>8</frames>
+  <frameInterval>10</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>210</width>
+  <height>147</height>
+  <speedX>-400</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</NinjaBwd>
+
+<Lantern>
+  <file>images/lantern.png</file>
+  <startLoc x="320" y="240"/>
+  <speedX>-175</speedX>
+  <speedY>-175</speedY>
+  <transparency>true</transparency>
+  <width>75</width>
+  <height>75</height>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</Lantern>
+
+<Falcon>
+  <file>images/falcon_sniper.png</file>
+  <frameInterval>10</frameInterval>
+  <frames>2</frames>
+  <cushion>50</cushion>
+  <scale min="0.5" max="1.5"/>
+  <startLoc x="500" y="350"/>
+  <width>57</width>
+  <height>78</height>
+  <minSpeedX>-200</minSpeedX>
+  <maxSpeedX>200</maxSpeedX>
+  <attackSpeedY>400</attackSpeedY>
+  <attackDistanceX>400</attackDistanceX>
+  <SpeedY>0</SpeedY>
+  <maximumY>450</maximumY>
+  <minimumY>250</minimumY>
+  <maximumX>4800</maximumX>
+  <minimumX>10</minimumX>
+  <minStartLocX>700</minStartLocX>
+  <transparency>true</transparency>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</Falcon>
+
+<Cat>
+  <file>images/cat.png</file>
+  <frameInterval>10</frameInterval>
+  <frames>8</frames>
+  <cushion>50</cushion>
+  <scale min="0.5" max="1.5"/>
+  <startLoc x="500" y="800"/>
+  <width>341.25</width>
+  <height>168</height>
+  <minSpeedX>-200</minSpeedX>
+  <maxSpeedX>200</maxSpeedX>
+  <attackSpeedY>400</attackSpeedY>
+  <attackDistanceX>400</attackDistanceX>
+  <SpeedY>0</SpeedY>
+  <maximumY>450</maximumY>
+  <minimumY>250</minimumY>
+  <maximumX>4800</maximumX>
+  <minimumX>10</minimumX>
+  <minStartLocX>700</minStartLocX>
+  <transparency>true</transparency>
+  <speedX>500</speedX>
+  <speedY>0</speedY>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</Cat>  
+  
+</GameData>

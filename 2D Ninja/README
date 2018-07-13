@@ -1,0 +1,29 @@
+Name: Krutika Joshi
+Clemson Email Address: krutikj@clemson.edu
+
+Project no: 5
+Project due date: April 20, 2016
+
+Project description: 
+Final Project: Adding depth and destruction
+
+This Project has been made in a team: Krutika Joshi and Aditi Jain  
+
+The ninja is the player.
+The player can shoot the enemy (Samurai) as they come into his range of vision. Use either the key 'S' or mouse click to do so.
+
+
+Sprite Sources:
+Ninja: https://www.pinterest.com/source/aaron-ikillme.blogspot.com
+Samurai: http://forum.unity3d.com/threads/2d-samurai-and-ninja-character-sprite.240425/
+Lantern: http://www.topwedding.com/iron-shelf-white-cotton-paper-lantern-with-dragon-printing-dl100014.html
+
+Contribution: 
+Krutika: 1. Keyboard and touch events: For shooting
+2. Sound and Music
+3. Parallax Scrolling: Three backgrounds
+
+Aditi Jain: 1. Painter's algorithm
+2. Shooting using object pooling
+3. Explosions
+4. Collision Detection
